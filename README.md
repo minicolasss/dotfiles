@@ -77,7 +77,7 @@ Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les lo
 | <img src="Pictures/Wallpapers/black-and-white-anime-bartender-girl.png" width="270"/> | <img src="Pictures/Wallpapers/fishing.jpg" width="270"/> |
 | <img src="Pictures/Wallpapers/112199.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbeagang.png" width="270"/> | <img src="Pictures/Wallpapers/brainnnn.jpg" width="270"/> |
 | <img src="Pictures/Wallpapers/jonker.jpg" width="270"/> | <img src="Pictures/Wallpapers/usine.jpg" width="270"/> | <img src="Pictures/Wallpapers/OIP-1305496287.jpg" width="270"/> | <img src="Pictures/Wallpapers/wallpapers2.jpg" width="270"/> | <img src="Pictures/Wallpapers/bestcharbon.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/UwU1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea2.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/subxbea1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea2.jpg" width="270"/> |
 | <img src="Pictures/Wallpapers/307233.jpg" width="270"/> | <img src="Pictures/Wallpapers/pigon.jpg" width="270"/> | <img src="Pictures/Wallpapers/tvman.jpg" width="270"/> |
 | <img src="Pictures/Wallpapers/sherk1.jpg" width="270"/> |
 
