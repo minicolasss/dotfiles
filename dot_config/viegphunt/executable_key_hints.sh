@@ -7,46 +7,46 @@ fi
 yad --center --title="Keybinding Hints" --no-buttons --list \
     --column=Key: --column="" --column=Description: \
     --timeout-indicator=bottom \
-" = "             "        "  "SUPER KEY (Windows Key Button)" \
+"🐧 = "            "        "  "SUPER KEY" \
 "" "" "" \
 "── Apps ──"         "        "  "─────────────────────────" \
-" Space"           "        "  "Open terminal" \
-" E"               "        "  "Open file manager" \
-" B"               "        "  "Open browser" \
-" H"               "        "  "Show keybinding hints" \
+"🐧 Space"          "        "  "Open terminal" \
+"🐧 E"              "        "  "Open file manager" \
+"🐧 B"              "        "  "Open browser" \
+"🐧 H"              "        "  "Show keybinding hints" \
 "" "" "" \
 "── Windows ──"      "        "  "─────────────────────────" \
-" Q"               "        "  "Close active window" \
-" Shift Q"         "        "  "Kill active window by PID" \
-" F"               "        "  "Toggle fullscreen" \
-" P"               "        "  "Toggle floating + pin" \
-" J"               "        "  "Toggle split (dwindle)" \
+"🐧 Q"              "        "  "Close active window" \
+"🐧 Shift Q"        "        "  "Kill active window by PID" \
+"🐧 F"              "        "  "Toggle fullscreen" \
+"🐧 P"              "        "  "Toggle floating + pin" \
+"🐧 J"              "        "  "Toggle split (dwindle)" \
 "" "" "" \
 "── Workspaces ──"   "        "  "─────────────────────────" \
-" M"               "        "  "Toggle music workspace" \
-" S"               "        "  "Toggle special workspace" \
-" Ctrl_R S"        "        "  "Move window to special workspace" \
-" [1 -> 0]"        "        "  "Switch workspace 1-10" \
-" Shift [1 -> 0]"  "        "  "Move window to workspace 1-10" \
-" Scroll"          "        "  "Scroll through workspaces" \
+"🐧 M"              "        "  "Toggle music workspace" \
+"🐧 S"              "        "  "Toggle special workspace" \
+"🐧 Ctrl_R S"       "        "  "Move window to special workspace" \
+"🐧 [1 -> 0]"       "        "  "Switch workspace 1-10" \
+"🐧 Shift [1 -> 0]" "        "  "Move window to workspace 1-10" \
+"🐧 Scroll"         "        "  "Scroll through workspaces" \
 "" "" "" \
 "── Navigation ──"   "        "  "─────────────────────────" \
-" Arrows"          "        "  "Move focus" \
+"🐧 Arrows"         "        "  "Move focus" \
 "Ctrl_R Arrows"     "        "  "Move/swap window" \
-" LMB drag"        "        "  "Move window" \
-" RMB drag"        "        "  "Resize window" \
+"🐧 LMB drag"       "        "  "Move window" \
+"🐧 RMB drag"       "        "  "Resize window" \
 "" "" "" \
 "── Launchers ──"    "        "  "─────────────────────────" \
 "ALT Space"         "        "  "App launcher" \
-" V"               "        "  "Clipboard manager" \
-" W"               "        "  "Choose wallpaper" \
-" Shift W"         "        "  "Random wallpaper" \
+"🐧 V"              "        "  "Clipboard manager" \
+"🐧 W"              "        "  "Choose wallpaper" \
+"🐧 Shift W"        "        "  "Random wallpaper" \
 "" "" "" \
 "── System ──"       "        "  "─────────────────────────" \
-" L"               "        "  "Lock screen (nierlock)" \
-" K"               "        "  "Logout menu (wlogout)" \
-" Shift S"         "        "  "Screenshot (region)" \
-" Shift Ctrl Esc"  "        "  "Exit Hyprland" \
+"🐧 L"              "        "  "Lock screen (nierlock)" \
+"🐧 K"              "        "  "Logout menu (wlogout)" \
+"🐧 Shift S"        "        "  "Screenshot (region)" \
+"🐧 Shift Ctrl Esc" "        "  "Exit Hyprland" \
 "" "" "" \
 "── Media ──"        "        "  "─────────────────────────" \
 "Vol Up/Down"       "        "  "Volume +/- 5%" \
