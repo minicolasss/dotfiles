@@ -14,7 +14,9 @@
 
 ---
 
-## 🖥️ Setup
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=300&height=40&lines=%F0%9F%96%A5%EF%B8%8F+Setup" alt="Setup" /></a>
+</div>
 
 | Component | Name |
 |---|---|
@@ -36,11 +38,12 @@
 
 ---
 
-## 🖼️ Wallpapers
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=300&height=40&lines=%F0%9F%96%BC%EF%B8%8F+Wallpapers" alt="Wallpapers" /></a>
+</div>
 
-Les wallpapers sont stockés dans `~/Pictures/Wallpapers/` et gérés par chezmoi.
-
-Le wallpaper actuel est appliqué dynamiquement via **swww** et **Pywal** génère automatiquement les couleurs du terminal, de waybar, et de rofi en fonction du wallpaper.
+Les wallpapers sont dans `~/Pictures/Wallpapers/` et gérés par chezmoi.
+**Pywal** génère automatiquement les couleurs du terminal, waybar et rofi en fonction du wallpaper actif.
 
 <div align="center">
 
@@ -53,44 +56,110 @@ Le wallpaper actuel est appliqué dynamiquement via **swww** et **Pywal** génè
 
 ### 🎭 Logos Fastfetch
 
-Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les logos disponibles sont dans `~/.config/fastfetch/logos/` et pointent vers les wallpapers :
+Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les logos sont dans `~/.config/fastfetch/logos/` :
 
 <div align="center">
 
 | | | | |
 |---|---|---|---|
 | <img src="Pictures/Wallpapers/UwU1transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU2transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU3transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU4transp.png" width="120"/> |
-| <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd1.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd2.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd3.png" width="120"/> | <img src="Pictures/Wallpapers/bocchi-transparent.png" width="120"/> |
+| <img src="Pictures/Wallpapers/UwU5transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU6transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU7transp.png" width="120"/> | <img src="Pictures/Wallpapers/bocchi-transparent.png" width="120"/> |
+| <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd1.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd2.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd3.png" width="120"/> | <img src="Pictures/Wallpapers/makima.jpg" width="120"/> |
 
 </div>
 
-### 🏎️ Images Fastfetch (voitures)
-
-Collection d'images de voitures utilisables comme logo Fastfetch :
+### 🌄 Wallpapers collection
 
 <div align="center">
 
-| | | | |
-|---|---|---|---|
-| <img src="Pictures/Wallpapers/FH5_Audi_2_Audi_Sport_quattro_S1.png" width="150"/> | <img src="Pictures/Wallpapers/photo-peugeot-206-a.png" width="150"/> | <img src="Pictures/Wallpapers/subarurally.png" width="150"/> | <img src="Pictures/Wallpapers/saint1.png" width="150"/> |
-| Audi Sport Quattro S1 | Peugeot 206 | Subaru Rally | Saint |
-
-</div>
-
-### 🌄 Quelques wallpapers
-
-<div align="center">
-
-| | |
-|---|---|
-| <img src="Pictures/Wallpapers/kita.png" width="400"/> | <img src="Pictures/Wallpapers/wallpapers1.png" width="400"/> |
-| <img src="Pictures/Wallpapers/cyberpunk-edgerunners-lucy-8k-nq-1336x768-3801197565.jpg" width="400"/> | <img src="Pictures/Wallpapers/black-and-white-anime-bartender-girl.png" width="400"/> |
+| | | |
+|---|---|---|
+| <img src="Pictures/Wallpapers/kita.png" width="270"/> | <img src="Pictures/Wallpapers/wallpapers1.png" width="270"/> | <img src="Pictures/Wallpapers/cyberpunk-edgerunners-lucy-8k-nq-1336x768-3801197565.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/black-and-white-anime-bartender-girl.png" width="270"/> | <img src="Pictures/Wallpapers/alexsaveeuropa.png" width="270"/> | <img src="Pictures/Wallpapers/fishing.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/112199.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbeagang.png" width="270"/> | <img src="Pictures/Wallpapers/brainnnn.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/jonker.jpg" width="270"/> | <img src="Pictures/Wallpapers/usine.jpg" width="270"/> | <img src="Pictures/Wallpapers/OIP-1305496287.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/1.jpg" width="270"/> | <img src="Pictures/Wallpapers/2.jpg" width="270"/> | <img src="Pictures/Wallpapers/3.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/4.jpg" width="270"/> | <img src="Pictures/Wallpapers/wallpapers2.jpg" width="270"/> | <img src="Pictures/Wallpapers/bestcharbon.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/UwU1.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU2.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU3.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/UwU4.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU5.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU6.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/UwU7.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea2.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/307233.jpg" width="270"/> | <img src="Pictures/Wallpapers/pigon.jpg" width="270"/> | <img src="Pictures/Wallpapers/tvman.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/sherk1.jpg" width="270"/> | <img src="Pictures/Wallpapers/pol.jpg" width="270"/> | <img src="Pictures/Wallpapers/2b.jpg" width="270"/> |
 
 </div>
 
 ---
 
-## 📁 Hiérarchie du projet
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=300&height=40&lines=%F0%9F%93%A6+What's+Included" alt="Included" /></a>
+</div>
+
+<details>
+<summary><b>🪟 Window Manager & Desktop</b></summary>
+
+- **Hyprland** — config, keybindings, animations, windowrules, workspaces
+- **Waybar** — bar avec themes, scripts, modules custom
+- **Rofi** — launcher, clipboard, wallpaper selector, themes
+- **SwayNC** — notifications
+- **wlogout** — logout menu avec icônes custom
+- **Quickshell** — nierlock (lockscreen)
+
+</details>
+
+<details>
+<summary><b>🖥️ Terminal & Shell</b></summary>
+
+- **Ghostty** — config + theme catppuccin
+- **Kitty** — config + themes
+- **ZSH** — Powerlevel10k, zinit, fzf, zoxide, pywal, aliases
+- **Fish** — config de base
+- **Tmux** — config + plugins (TPM)
+
+</details>
+
+<details>
+<summary><b>✏️ Editor</b></summary>
+
+- **Neovim** — config complète avec :
+  - LSP, autocompletion (blink)
+  - Telescope (fuzzy finder)
+  - NeoTree (file explorer)
+  - Treesitter (syntax highlighting)
+  - Catppuccin theme
+  - Lualine, gitsigns, mini.nvim
+  - Toggleterm, formatting, comments
+
+</details>
+
+<details>
+<summary><b>🎨 Theming & Visuals</b></summary>
+
+- **Pywal** — couleurs dynamiques depuis le wallpaper
+- **GTK 3 & 4** — settings
+- **Fontconfig** — configuration des polices
+- **Colors** — palette partagée (CSS + Rasi)
+- **Fastfetch** — logos custom (bocchi, UwU, makima...)
+- **Wallpapers** — 50+ wallpapers inclus
+
+</details>
+
+<details>
+<summary><b>🔧 Outils</b></summary>
+
+- **Yazi** — file manager terminal
+- **btop** — monitoring système + themes
+- **cava** — visualiseur audio
+- **mpv** — lecteur vidéo
+- **htop** — process viewer
+- **viegphunt scripts** — wallpaper, launcher, clipboard, keybinds
+
+</details>
+
+---
+
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=400&height=40&lines=%F0%9F%93%81+Hi%C3%A9rarchie+du+projet" alt="Hierarchy" /></a>
+</div>
 
 ```
 ~/.local/share/chezmoi/          # Dépôt source chezmoi
@@ -201,8 +270,7 @@ Collection d'images de voitures utilisables comme logo Fastfetch :
 │   ├── fastfetch/               # 🖼️  FASTFETCH — System info + art
 │   │   ├── config.jsonc         #    Config (modules, layout, logo)
 │   │   ├── arch.txt             #    ASCII art Arch
-│   │   ├── logos/               #    Logos aléatoires (→ wallpapers)
-│   │   └── car/                 #    Images de voitures
+│   │   └── logos/               #    Logos aléatoires (→ wallpapers)
 │   │
 │   ├── cava/                    # 🎵 CAVA — Visualiseur audio
 │   │   └── config               #    Config (style, couleurs)
@@ -248,7 +316,9 @@ Collection d'images de voitures utilisables comme logo Fastfetch :
 
 ---
 
-## ⌨️ Raccourcis principaux
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=400&height=40&lines=%E2%8C%A8%EF%B8%8F+Raccourcis+principaux" alt="Keybindings" /></a>
+</div>
 
 > `⊞` = touche Super
 
@@ -313,7 +383,9 @@ Collection d'images de voitures utilisables comme logo Fastfetch :
 
 ---
 
-## 🚀 Installation
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=300&height=40&lines=%F0%9F%9A%80+Installation" alt="Install" /></a>
+</div>
 
 ```bash
 # Installer chezmoi (Arch)
@@ -323,7 +395,9 @@ sudo pacman -S chezmoi
 chezmoi init --apply minicolasss
 ```
 
-## 🔄 Utilisation
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=300&height=40&lines=%F0%9F%94%84+Utilisation" alt="Usage" /></a>
+</div>
 
 ```bash
 # Voir les différences
@@ -343,6 +417,6 @@ chezmoi update
 
 <div align="center">
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=4000&pause=2000&color=A6E3A1&center=true&vCenter=true&random=false&width=400&height=30&lines=btw+i+use+arch+%E2%8A%9E" alt="btw" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=14&duration=4000&pause=2000&color=F38BA8&center=true&vCenter=true&random=false&width=400&height=30&lines=made+with+%E2%9D%A4%EF%B8%8F+on+Arch+Linux" alt="heart" /></a>
 
 </div>
