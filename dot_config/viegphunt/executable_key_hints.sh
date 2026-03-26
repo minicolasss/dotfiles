@@ -11,7 +11,7 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "" "" "" \
 "  H"              "        "  "Show keybinding hints" \
 "  Space"          "        "  "Open terminal" \
-"  E"              "        "  "Open file manager" \
+"  E"              "        "  "Open file manager (yazi)" \
 "  B"              "        "  "Open browser" \
 "" "" "" \
 "  Q"              "        "  "Close active window" \
