@@ -56,7 +56,7 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "ls"                    "        "  "List files (eza + icons)" \
 "ll"                    "        "  "List files (long format)" \
 "la"                    "        "  "List all files (hidden)" \
-"lt"                    "        "  "Tree view (1 level)" \
+"lt / lt1 / lt2 / lt3"  "        "  "Tree view (level 1/2/3)" \
 "c"                     "        "  "Clear screen" \
 "nv"                    "        "  "Open Neovim" \
 "" "" "" \
