@@ -73,18 +73,13 @@ Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les lo
 <div align="center">
 
 | | | |
-|---|---|---|
 | <img src="Pictures/Wallpapers/kita.png" width="270"/> | <img src="Pictures/Wallpapers/wallpapers1.png" width="270"/> | <img src="Pictures/Wallpapers/cyberpunk-edgerunners-lucy-8k-nq-1336x768-3801197565.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/black-and-white-anime-bartender-girl.png" width="270"/> | <img src="Pictures/Wallpapers/alexsaveeuropa.png" width="270"/> | <img src="Pictures/Wallpapers/fishing.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/black-and-white-anime-bartender-girl.png" width="270"/> | <img src="Pictures/Wallpapers/fishing.jpg" width="270"/> |
 | <img src="Pictures/Wallpapers/112199.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbeagang.png" width="270"/> | <img src="Pictures/Wallpapers/brainnnn.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/jonker.jpg" width="270"/> | <img src="Pictures/Wallpapers/usine.jpg" width="270"/> | <img src="Pictures/Wallpapers/OIP-1305496287.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/1.jpg" width="270"/> | <img src="Pictures/Wallpapers/2.jpg" width="270"/> | <img src="Pictures/Wallpapers/3.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/4.jpg" width="270"/> | <img src="Pictures/Wallpapers/wallpapers2.jpg" width="270"/> | <img src="Pictures/Wallpapers/bestcharbon.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/UwU1.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU2.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU3.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/UwU4.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU5.jpg" width="270"/> | <img src="Pictures/Wallpapers/UwU6.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/UwU7.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea2.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/jonker.jpg" width="270"/> | <img src="Pictures/Wallpapers/usine.jpg" width="270"/> | <img src="Pictures/Wallpapers/OIP-1305496287.jpg" width="270"/> | <img src="Pictures/Wallpapers/wallpapers2.jpg" width="270"/> | <img src="Pictures/Wallpapers/bestcharbon.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/UwU1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea2.jpg" width="270"/> |
 | <img src="Pictures/Wallpapers/307233.jpg" width="270"/> | <img src="Pictures/Wallpapers/pigon.jpg" width="270"/> | <img src="Pictures/Wallpapers/tvman.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/sherk1.jpg" width="270"/> | <img src="Pictures/Wallpapers/pol.jpg" width="270"/> | <img src="Pictures/Wallpapers/2b.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/sherk1.jpg" width="270"/> |
 
 </div>
 
