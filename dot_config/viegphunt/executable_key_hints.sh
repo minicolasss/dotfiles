@@ -74,6 +74,23 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "Space g f"             "        "  "Format code" \
 "K"                     "        "  "Show hover documentation" \
 "" "" "" \
+"v"                     "        "  "Start selection (Visual mode)" \
+"V"                     "        "  "Select entire line" \
+"Ctrl V"                "        "  "Block selection (Visual Block)" \
+"y"                     "        "  "Copy (yank) selection" \
+"yy"                    "        "  "Copy entire line" \
+"p"                     "        "  "Paste after cursor" \
+"P"                     "        "  "Paste before cursor" \
+"d"                     "        "  "Cut (delete) selection" \
+"dd"                    "        "  "Cut entire line" \
+"" "" "" \
+"0"                     "        "  "Go to start of line" \
+"$"                     "        "  "Go to end of line" \
+"^"                     "        "  "Go to first non-space char" \
+"gg"                    "        "  "Go to first line of file" \
+"G"                     "        "  "Go to last line of file" \
+"w / b"                 "        "  "Jump word forward / backward" \
+"" "" "" \
 "Alt Up/Down"           "        "  "Move line up/down" \
 "Tab / Shift Tab"       "        "  "Indent / Unindent" \
 "Ctrl H/J/K/L"          "        "  "Move between panes" \
