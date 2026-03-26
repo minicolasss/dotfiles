@@ -14,23 +14,35 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "  E"              "        "  "Open file manager" \
 "  B"              "        "  "Open browser" \
 "" "" "" \
-"  Shift Ctrl Esc" "        "  "Exit Hyprland" \
 "  Q"              "        "  "Close active window" \
 "  Shift Q"        "        "  "Kill active window by PID" \
+"  Shift Ctrl Esc" "        "  "Exit Hyprland" \
 "" "" "" \
-"  F"              "        "  "Toggle floating" \
-"  P"              "        "  "Toggle pseudo (dwindle)" \
+"  F"              "        "  "Toggle fullscreen" \
+"  P"              "        "  "Toggle floating + pin" \
 "  J"              "        "  "Toggle split (dwindle)" \
 "" "" "" \
-"  L"              "        "  "Lock screen" \
-"ALT Space"         "        "  "App launcher" \
-"  ."              "        "  "Emoji selector" \
+"  M"              "        "  "Toggle music workspace" \
+"  S"              "        "  "Toggle special workspace" \
+"  Ctrl_R S"       "        "  "Move to special workspace" \
+"  [1 -> 0]"       "        "  "Switch workspace 1-10" \
+"  Shift [1 -> 0]" "        "  "Move window to workspace 1-10" \
+"  Scroll"         "        "  "Scroll through workspaces" \
+"" "" "" \
+"  Arrows"         "        "  "Move focus" \
+"Ctrl_R Arrows"         "        "  "Move/swap window" \
+"  LMB drag"       "        "  "Move window" \
+"  RMB drag"       "        "  "Resize window" \
+"" "" "" \
+"  L"              "        "  "Lock screen (nierlock)" \
+"  K"              "        "  "Logout menu (wlogout)" \
+"ALT Space"             "        "  "App launcher" \
 "  V"              "        "  "Clipboard manager" \
 "  W"              "        "  "Choose wallpaper" \
 "  Shift W"        "        "  "Random wallpaper" \
 "  Shift S"        "        "  "Screenshot (region)" \
 "" "" "" \
-"  [1 -> 0]"       "        "  "Switch workspace 1-10" \
-"  Shift [1 -> 0]" "        "  "Move window to workspace 1-10" \
-"" "" "" \
-"More Keybinding"   "        "  "$HOME/.config/hypr/conf/keybinding.conf"
+"Vol Up/Down"           "        "  "Volume +/- 5%" \
+"Mute"                  "        "  "Toggle mute audio/mic" \
+"Brightness"            "        "  "Brightness +/- 10%" \
+"Play/Pause/Next"       "        "  "Media controls (playerctl)"
