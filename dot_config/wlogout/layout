@@ -1,0 +1,36 @@
+{
+    "label" : "exit",
+    "action" : "pkill wlogout",
+    "text" : "EX",
+    "keybind" : "h"
+}
+{
+    "label" : "shutdown",
+    "action" : "systemctl poweroff",
+    "text" : "PW",
+    "keybind" : "s"
+}
+{
+    "label" : "suspend",
+    "action" : "systemctl suspend-then-hibernate",
+    "text" : "SP",
+    "keybind" : "u"
+}
+{
+    "label" : "lock",
+    "action" : "qs -n -c nierlock",
+    "text" : "LK",
+    "keybind" : "l"
+}
+{
+    "label" : "logout",
+    "action" : "hyprctl dispatch exit",
+    "text" : "LO",
+    "keybind" : "e"
+}
+{
+    "label" : "reboot",
+    "action" : "systemctl reboot",
+    "text" : "RB",
+    "keybind" : "r"
+}

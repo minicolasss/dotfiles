@@ -1,0 +1,76 @@
+/* 1. Import des couleurs de ton wallpaper (Pywal) */
+@import '/home/lustucru/.cache/wal/colors-waybar.css';
+
+/* 2. Configuration globale */
+* {
+    font-family: "Monocraft Nerd Font", "JetBrainsMono Nerd Font", monospace;
+    font-size: 24px;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.3s;
+}
+
+window {
+    /* Fond noir légèrement transparent pour voir le flou derrière */
+    background-color: rgba(17, 17, 27, 0.85);
+}
+
+/* 3. Style des Boutons (Base) */
+button {
+    border-radius: 20px; /* Arrondi style anime */
+    background-color: rgba(30, 30, 46, 0.6); /* Fond sombre vitré */
+    border: 3px solid @color6; /* Bordure couleur du thème (Cyan/Bleu) */
+    color: @foreground;
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20%; /* Taille de l'icône */
+    margin: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); /* Légère ombre */
+}
+
+button:hover {
+    background-color: @color2; /* Rose/Rouge */
+    color: #11111b;
+    border-color: @color2;
+    background-size: 20%;
+    box-shadow: 0 0 20px @color2;
+    animation: gradient_f 20s ease-in infinite;
+}
+
+button:focus {
+    background-color: rgba(30, 30, 46, 0.6); /* Garde la couleur de fond sombre normale */
+    border-color: @color2; /* Change juste la couleur de la bordure pour repérer la sélection */
+    color: @foreground;      /* Garde la couleur de texte normale */
+    box-shadow: none;        /* Pas de lueur */
+    background-size: 20%;    /* Pas de zoom */
+}
+
+/* 5. ICÔNES RÉPARÉES (Chemins système garantis) */
+#exit {
+    background-image: url("/usr/share/wlogout/icons/logout.png");
+}
+
+#lock {
+    background-image: url("/usr/share/wlogout/icons/lock.png");
+}
+
+#logout {
+    background-image: url("/usr/share/wlogout/icons/logout.png");
+}
+
+#suspend {
+    background-image: url("/usr/share/wlogout/icons/suspend.png");
+}
+
+#hibernate {
+    background-image: url("/usr/share/wlogout/icons/hibernate.png");
+}
+
+#shutdown {
+    background-image: url("/usr/share/wlogout/icons/shutdown.png");
+}
+
+#reboot {
+    background-image: url("/usr/share/wlogout/icons/reboot.png");
+}

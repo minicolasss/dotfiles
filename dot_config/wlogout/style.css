@@ -1,0 +1,39 @@
+/* Pywal (couleurs) */
+@import "/home/lustucru/.cache/wal/colors-waybar.css";
+
+* {
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+    font-family: "Orbitron", "JetBrainsMono Nerd Font Mono", "Symbols Nerd Font";
+}
+
+window {
+    background-color: transparent;
+}
+
+box {
+    background-color: transparent;
+}
+
+button {
+    border-radius: 0;
+    border: 1px solid @color6;
+    background-color: @color0;
+    color: @foreground;
+    margin: 2px;
+    min-width: 52px;
+    min-height: 28px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    padding: 0 0 6px 0;
+    transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+}
+
+button:hover,
+button:focus {
+    background-color: @color6;
+    border-color: @color6;
+    color: @background;
+}

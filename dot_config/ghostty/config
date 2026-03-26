@@ -1,0 +1,36 @@
+# IBM Plex Mono : lisible, style « terminal institutionnel » ; Nerd Font en secours pour les glyphes PUA
+font-family = "IBM Plex Mono"
+font-family = "JetBrainsMono Nerd Font"
+font-codepoint-map = U+E000-U+F8FF=JetBrainsMono Nerd Font
+
+font-size = 12
+
+# Couleurs (Pywal) depuis ~/.cache/wal/colors-waybar.css
+background = #121012
+foreground = #e2d9c8
+cursor-color = #e2d9c8
+
+# Palette ANSI 0-15
+palette = 0=#121012
+palette = 1=#A66E57
+palette = 2=#B08C6B
+palette = 3=#D7996D
+palette = 4=#E5A876
+palette = 5=#DFB488
+palette = 6=#F0C997
+palette = 7=#e2d9c8
+palette = 8=#9e978c
+palette = 9=#A66E57
+palette = 10=#B08C6B
+palette = 11=#D7996D
+palette = 12=#E5A876
+palette = 13=#DFB488
+palette = 14=#F0C997
+palette = 15=#e2d9c8
+
+background-opacity = 0.8
+
+keybind = ctrl+shift+v=ignore
+keybind = performable:ctrl+v=paste_from_clipboard
+keybind = ctrl+shift+c=ignore
+keybind = performable:ctrl+c=copy_to_clipboard
