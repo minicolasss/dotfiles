@@ -68,8 +68,7 @@ Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les lo
 | <img src="Pictures/Wallpapers/UwU1transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU2transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU3transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU4transp.png" width="120"/> |
 | <img src="Pictures/Wallpapers/UwU5transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU6transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU7transp.png" width="120"/> | <img src="Pictures/Wallpapers/bocchi-transparent.png" width="120"/> |
 | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd1.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd2.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd3.png" width="120"/> | <img src="Pictures/Wallpapers/makima.jpg" width="120"/> |
-| <img src="Pictures/Wallpapers/2b.jpg" width="120"/> | <img src="Pictures/Wallpapers/FH5_Audi_2_Audi_Sport_quattro_S1.png" width="120"/> | <img src="Pictures/Wallpapers/photo-peugeot-206-a.png" width="120"/> | <img src="Pictures/Wallpapers/subarurally.png" width="120"/> |
-| <img src="Pictures/Wallpapers/saint1.png" width="120"/> | | | |
+| <img src="Pictures/Wallpapers/2b.jpg" width="120"/> | <img src="Pictures/Wallpapers/saint1.png" width="120"/> | | |
 
 </div>
 
