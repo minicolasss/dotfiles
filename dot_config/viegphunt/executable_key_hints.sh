@@ -66,7 +66,7 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "Space e"               "        "  "Open file explorer (NeoTree)" \
 "Space f f"             "        "  "Find files (Telescope)" \
 "Space f g"             "        "  "Live grep (Telescope)" \
-"Space `"              "        "  "Open bottom terminal" \
+"Space ~"              "        "  "Open bottom terminal" \
 "Esc (in terminal)"     "        "  "Exit terminal mode" \
 "" "" "" \
 "Space /"               "        "  "Toggle comment" \
