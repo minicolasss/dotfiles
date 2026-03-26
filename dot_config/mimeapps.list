@@ -1,0 +1,7 @@
+[Added Associations]
+image/png=gthumb-2.desktop;gthumb.desktop;
+
+[Default Applications]
+inode/directory=yazi.desktop;
+image/png=gthumb-2.desktop;
+x-scheme-handler/discord=vesktop.desktop

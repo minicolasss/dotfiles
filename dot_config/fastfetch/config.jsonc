@@ -1,0 +1,95 @@
+{
+  "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+  "logo": {
+    "source": "/home/lustucru/.config/fastfetch/logos/bocchi-transparent.png",
+    "height": 18,
+    // "width": 30,
+    "padding": {
+      "top": 1,
+      "left": 2,
+      "right": 4
+    }
+  },
+  "display": {
+    "separator": "  ",
+    "color": {
+      "separator": "white",
+      "output": "#c3b8a1"
+    },
+    "constants": [
+      "───────────────────────────"
+    ]
+  },
+  "modules": [
+    "break",
+    "break",
+    "break",
+    "break", // Nouveau saut de ligne
+    "break", // Nouveau saut de ligne
+
+    // --- Ligne du haut ---
+    {
+      "type": "custom",
+      "format": "╭{$1}╮",
+      "key": "  "
+    },
+
+    // --- Tes Stats ---
+    {
+      "type": "title",
+      "key": "│    nme",
+      "keyColor": "red",
+      "format": "{user-name}"
+    },
+    {
+      "type": "host",
+      "key": "│    hst",
+      "keyColor": "red"
+    },
+    {
+      "type": "uptime",
+      "key": "│    upt",
+      "keyColor": "blue"
+    },
+    {
+      "type": "os",
+      "key": "│    dst",
+      "keyColor": "blue"
+    },
+    {
+      "type": "kernel",
+      "key": "│    ker",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "wm",
+      "key": "│    twm",
+      "keyColor": "magenta"
+    },
+    {
+      "type": "terminal",
+      "key": "│    trm",
+      "keyColor": "cyan"
+    },
+    {
+      "type": "shell",
+      "key": "│    shl",
+      "keyColor": "cyan"
+    },
+
+    // --- Ligne du bas ---
+    {
+      "type": "custom",
+      "format": "╰{$1}╯",
+      "key": "  "
+    },
+
+    // --- Couleurs ---
+    {
+        "type": "colors",
+        "key": "    clr",
+        "symbol": "circle"
+    },
+
+  ]
+}

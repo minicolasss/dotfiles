@@ -1,0 +1,128 @@
+# ─── 1. POWERLEVEL10K PREAMBULE (CRITIQUE) ──────────────────────
+# On désactive l'instant prompt pour éviter le warning et laisser l'image charger
+typeset -g POWERLEVEL9K_INSTANT_PROMPT=off
+
+if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
+  source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
+fi
+
+# ─── 2. META & HISTORY (De ton ancienne conf) ───────────────────
+[[ $- != *i* ]] && return
+
+HISTSIZE=5000
+HISTFILE=~/.zsh_history
+SAVEHIST=$HISTSIZE
+HISTDUP=erase
+setopt appendhistory
+setopt sharehistory
+bindkey -e
+
+# PATH Standard
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+
+# ─── 3. PYWAL (Couleurs du Wallpaper) ───────────────────────────
+# Charge les couleurs générées par wal silencieusement
+# C'est ce qui permet à ton terminal de prendre les couleurs du fond d'écran
+(cat ~/.cache/wal/sequences &> /dev/null &)
+source ~/.cache/wal/colors-tty.sh 2> /dev/null
+
+# ─── 4. FZF & RECHERCHE (Ta super recherche de fichiers) ───────
+eval "$(fzf --zsh)"
+
+# J'ai gardé tes couleurs Catppuccin pour FZF car elles sont très lisibles,
+# même avec Pywal. Si tu veux que FZF utilise aussi Pywal, dis-le moi.
+export FZF_DEFAULT_OPTS=" \
+--color=bg+:#313244,bg:#1E1E2E,spinner:#F5E0DC,hl:#F38BA8 \
+--color=fg:#CDD6F4,header:#F38BA8,info:#CBA6F7,pointer:#F5E0DC \
+--color=marker:#B4BEFE,fg+:#CDD6F4,prompt:#CBA6F7,hl+:#F38BA8 \
+--color=selected-bg:#45475A \
+--color=border:#313244,label:#CDD6F4"
+export FZF_TAB_COLORS='fg:#CDD6F4,bg:#1E1E2E,hl:#F38BA8,min-height=5'
+
+# Ctrl+R : recherche dans l'historique des commandes
+export FZF_CTRL_R_OPTS=" \
+--header='  Historique des commandes' \
+--preview='echo {}' \
+--preview-window=up:3:wrap \
+--bind='ctrl-y:execute-silent(echo -n {2..} | xclip -selection clipboard)+abort' \
+--bind='ctrl-d:preview-down' \
+--bind='ctrl-u:preview-up'"
+
+# Ctrl+T : navigateur de fichiers interactif
+fzf-file-explorer() {
+  local result
+  result=$(fzf-explorer.sh "$(pwd)")
+  if [[ -n "$result" ]]; then
+    LBUFFER+="$result"
+  fi
+  zle reset-prompt
+}
+zle -N fzf-file-explorer
+bindkey '^T' fzf-file-explorer
+
+# ─── 5. ZINIT (Gestionnaire de plugins) ─────────────────────────
+ZINIT_HOME="${ZDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
+if [ ! -d "$ZINIT_HOME" ]; then
+    mkdir -p "$(dirname $ZINIT_HOME)"
+    git clone https://github.com/zdharma-continuum/zinit.git "$ZINIT_HOME"
+fi
+source "${ZINIT_HOME}/zinit.zsh"
+
+# --- PLUGINS ---
+# Powerlevel10k (Le thème Bocchi style)
+zinit ice depth=1; zinit light romkatv/powerlevel10k
+
+# Tes plugins essentiels
+zinit light zsh-users/zsh-syntax-highlighting
+zinit light zsh-users/zsh-completions
+zinit light zsh-users/zsh-autosuggestions
+zinit light Aloxaf/fzf-tab
+
+# ─── 6. COMPLETION AVANCÉE (Avec Preview) ───────────────────────
+autoload -Uz compinit && compinit
+zinit cdreplay -q
+
+# C'est ici que se fait la magie de la prévisualisation des fichiers
+zstyle ':completion:*' matcher-list 'm:{A-Za-z}={A-Za-z}'
+zstyle ':completion:*' list-colors "${(s.:.)LS_COLORS}"
+zstyle ':completion:*' menu no
+zstyle ':fzf-tab:*' use-fzf-default-opts yes
+zstyle ':fzf-tab:*' fzf-flags --height=25
+zstyle ':fzf-tab:*' fzf-bindings 'right:accept'
+zstyle ':fzf-tab:complete:*' fzf-preview 'fzf-preview.sh "$realpath"'
+
+
+
+# ─── 7. ALIASES & TOOLS ─────────────────────────────────────────
+alias ls='eza --icons --color=always'
+alias ll='eza --icons --color=always -l'
+alias la='eza --icons --color=always -a'
+alias lla='eza --icons --color=always -la'
+alias lt='eza --icons --color=always -a --tree --level=1'
+alias grep='grep --color=always'
+alias c='clear'
+alias nv='nvim'
+alias clear='/usr/bin/clear; fastfetch --config ~/.config/fastfetch/config.jsonc'
+alias fastfetch='fastfetch --logo "$(find ~/.config/fastfetch/logos -type l | shuf -n 1)" --logo-type kitty'
+alias israel='agent'
+alias mossade='agent'
+
+# Setup bat
+export BAT_THEME="base16"
+alias bat='bat --paging=never'
+
+# Setup zoxide
+eval "$(zoxide init zsh)"
+
+# ─── 8. STARTUP (La touche finale) ──────────────────────────────
+
+# Charge la configuration visuelle du prompt (P10k)
+[[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
+
+# Affiche Bocchi avec les couleurs Pywal (Fastfetch stylisé)
+fastfetch --config ~/.config/fastfetch/config.jsonc
+
+# wal rules
+wal -R -q
+
+. "$HOME/.local/share/../bin/env"
