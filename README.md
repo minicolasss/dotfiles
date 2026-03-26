@@ -34,6 +34,8 @@
 | **Logout** | wlogout |
 | **Fetch** | Fastfetch |
 | **Audio Visualizer** | Cava |
+| **Startpage** | Custom (HTML/CSS/JS) |
+| **GRUB Theme** | [double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu) |
 | **Dotfiles Manager** | chezmoi |
 
 ---
@@ -62,6 +64,7 @@ Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les lo
 
 | | | | |
 |---|---|---|---|
+| <img src="Pictures/Wallpapers/1transp.png" width="120"/> | <img src="Pictures/Wallpapers/2transp.png" width="120"/> | <img src="Pictures/Wallpapers/3transp.png" width="120"/> | <img src="Pictures/Wallpapers/4transp.png" width="120"/> |
 | <img src="Pictures/Wallpapers/UwU1transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU2transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU3transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU4transp.png" width="120"/> |
 | <img src="Pictures/Wallpapers/UwU5transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU6transp.png" width="120"/> | <img src="Pictures/Wallpapers/UwU7transp.png" width="120"/> | <img src="Pictures/Wallpapers/bocchi-transparent.png" width="120"/> |
 | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd1.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd2.png" width="120"/> | <img src="Pictures/Wallpapers/Peach__Zelda_by_mndbd3.png" width="120"/> | <img src="Pictures/Wallpapers/makima.jpg" width="120"/> |
@@ -73,15 +76,84 @@ Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les lo
 <div align="center">
 
 | | | |
+|---|---|---|
 | <img src="Pictures/Wallpapers/kita.png" width="270"/> | <img src="Pictures/Wallpapers/wallpapers1.png" width="270"/> | <img src="Pictures/Wallpapers/cyberpunk-edgerunners-lucy-8k-nq-1336x768-3801197565.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/black-and-white-anime-bartender-girl.png" width="270"/> | <img src="Pictures/Wallpapers/fishing.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/112199.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbeagang.png" width="270"/> | <img src="Pictures/Wallpapers/brainnnn.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/jonker.jpg" width="270"/> | <img src="Pictures/Wallpapers/usine.jpg" width="270"/> | <img src="Pictures/Wallpapers/OIP-1305496287.jpg" width="270"/> | <img src="Pictures/Wallpapers/wallpapers2.jpg" width="270"/> | <img src="Pictures/Wallpapers/bestcharbon.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/subxbea1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea2.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/black-and-white-anime-bartender-girl.png" width="270"/> | <img src="Pictures/Wallpapers/fishing.jpg" width="270"/> | <img src="Pictures/Wallpapers/112199.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/subxbeagang.png" width="270"/> | <img src="Pictures/Wallpapers/brainnnn.jpg" width="270"/> | <img src="Pictures/Wallpapers/jonker.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/usine.jpg" width="270"/> | <img src="Pictures/Wallpapers/OIP-1305496287.jpg" width="270"/> | <img src="Pictures/Wallpapers/wallpapers2.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/bestcharbon.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea1.jpg" width="270"/> | <img src="Pictures/Wallpapers/subxbea2.jpg" width="270"/> |
 | <img src="Pictures/Wallpapers/307233.jpg" width="270"/> | <img src="Pictures/Wallpapers/pigon.jpg" width="270"/> | <img src="Pictures/Wallpapers/tvman.jpg" width="270"/> |
-| <img src="Pictures/Wallpapers/sherk1.jpg" width="270"/> |
+| <img src="Pictures/Wallpapers/sherk1.jpg" width="270"/> | | |
 
 </div>
+
+---
+
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=350&height=40&lines=%F0%9F%93%B8+Screenshots" alt="Screenshots" /></a>
+</div>
+
+<div align="center">
+
+| Terminal (Ghostty + Fastfetch) |
+|---|
+| <img src="Pictures/screenshots/terminal.png" width="700"/> |
+| Ghostty avec Fastfetch, Powerlevel10k, Pywal et logo aléatoire |
+
+| Rofi (App Launcher) |
+|---|
+| <img src="Pictures/screenshots/rofi.png" width="700"/> |
+| Lanceur d'applications avec thème Pywal dynamique |
+
+| Startpage |
+|---|
+| <img src="Pictures/screenshots/startpage.png" width="700"/> |
+| Page d'accueil du navigateur avec liens rapides |
+
+</div>
+
+---
+
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=350&height=40&lines=%F0%9F%8C%90+Startpage" alt="Startpage" /></a>
+</div>
+
+La startpage est une page d'accueil custom pour le navigateur, avec des raccourcis vers les sites fréquemment utilisés.
+
+- **Thèmes multiples** : blue, cherry, violet, green, mesh-purple, orange
+- **Liens rapides** configurables
+- **Design responsive** avec Source Code Pro
+
+La config se trouve dans `~/.config/startpage/` et utilise du HTML/CSS/JS pur.
+
+---
+
+<div align="center">
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=350&height=40&lines=%E2%9B%8F%EF%B8%8F+GRUB+Theme" alt="GRUB" /></a>
+</div>
+
+Le bootloader utilise [**double-minegrub-menu**](https://github.com/Lxtharia/double-minegrub-menu), un thème GRUB inspiré du menu Minecraft.
+
+- **Style Minecraft** pour la sélection du système au démarrage
+- **Animation** du menu titre
+- **Sélection stylisée** des entrées de boot
+
+Installation :
+
+```bash
+git clone https://github.com/Lxtharia/double-minegrub-menu.git
+cd double-minegrub-menu
+sudo cp -r minegrub-double-theme /boot/grub/themes/
+```
+
+Puis dans `/etc/default/grub` :
+```bash
+GRUB_THEME="/boot/grub/themes/minegrub-double-theme/theme.txt"
+```
+
+```bash
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 
 ---
 
@@ -147,6 +219,14 @@ Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les lo
 - **mpv** — lecteur vidéo
 - **htop** — process viewer
 - **viegphunt scripts** — wallpaper, launcher, clipboard, keybinds
+
+</details>
+
+<details>
+<summary><b>🌐 Startpage & Boot</b></summary>
+
+- **Startpage** — page d'accueil navigateur (HTML/CSS/JS, multi-thèmes)
+- **GRUB** — thème Minecraft ([double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu))
 
 </details>
 
