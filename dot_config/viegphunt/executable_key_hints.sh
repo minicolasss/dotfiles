@@ -45,4 +45,38 @@ yad --center --title="Keybinding Hints" --no-buttons --list \
 "Vol Up/Down"           "        "  "Volume +/- 5%" \
 "Mute"                  "        "  "Toggle mute audio/mic" \
 "Brightness"            "        "  "Brightness +/- 10%" \
-"Play/Pause/Next"       "        "  "Media controls (playerctl)"
+"Play/Pause/Next"       "        "  "Media controls (playerctl)" \
+"" "" "" \
+"━━ Terminal (ZSH) ━━"  "        "  "━━━━━━━━━━━━━━━━━━━━━━━━━" \
+"" "" "" \
+"Ctrl + R"              "        "  "Search command history (fzf)" \
+"Ctrl + T"              "        "  "File explorer (fzf)" \
+"Tab"                   "        "  "Autocomplete suggestion" \
+"" "" "" \
+"ls"                    "        "  "List files (eza + icons)" \
+"ll"                    "        "  "List files (long format)" \
+"la"                    "        "  "List all files (hidden)" \
+"lt"                    "        "  "Tree view (1 level)" \
+"c"                     "        "  "Clear screen" \
+"nv"                    "        "  "Open Neovim" \
+"" "" "" \
+"━━ Neovim ━━"          "        "  "━━━━━━━━━━━━━━━━━━━━━━━━━" \
+"Leader = Space"        "        "  "" \
+"" "" "" \
+"Space e"               "        "  "Open file explorer (NeoTree)" \
+"Space f f"             "        "  "Find files (Telescope)" \
+"Space f g"             "        "  "Live grep (Telescope)" \
+"Space `"              "        "  "Open bottom terminal" \
+"Esc (in terminal)"     "        "  "Exit terminal mode" \
+"" "" "" \
+"Space /"               "        "  "Toggle comment" \
+"Space r n"             "        "  "Toggle relative numbers" \
+"Space g f"             "        "  "Format code" \
+"K"                     "        "  "Show hover documentation" \
+"" "" "" \
+"Alt Up/Down"           "        "  "Move line up/down" \
+"Tab / Shift Tab"       "        "  "Indent / Unindent" \
+"Ctrl H/J/K/L"          "        "  "Move between panes" \
+"Alt = / -"             "        "  "Resize pane (taller/shorter)" \
+"Alt , / ."             "        "  "Resize pane (wider/narrower)" \
+"Esc"                   "        "  "Clear search highlights"
