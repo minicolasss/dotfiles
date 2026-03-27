@@ -34,7 +34,7 @@
 | **Logout** | wlogout |
 | **Fetch** | Fastfetch |
 | **Audio Visualizer** | Cava |
-| **Startpage** | Custom (HTML/CSS/JS) |
+| **Startpage** | Basée sur [aesthetic-startpage](https://github.com/Nainish-Rai/aesthetic-startpage) |
 | **GRUB Theme** | [double-minegrub-menu](https://github.com/Lxtharia/double-minegrub-menu) |
 | **Dotfiles Manager** | chezmoi |
 
@@ -119,7 +119,7 @@ Fastfetch affiche un **logo aléatoire** à chaque ouverture du terminal. Les lo
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=2000&color=F5C2E7&center=true&vCenter=true&width=350&height=40&lines=%F0%9F%8C%90+Startpage" alt="Startpage" /></a>
 </div>
 
-La startpage est une page d'accueil custom pour le navigateur, avec des raccourcis vers les sites fréquemment utilisés.
+La startpage est une page d'accueil custom pour le navigateur, basée sur [**aesthetic-startpage**](https://github.com/Nainish-Rai/aesthetic-startpage), avec des raccourcis vers les sites fréquemment utilisés.
 
 - **Thèmes multiples** : blue, cherry, violet, green, mesh-purple, orange
 - **Liens rapides** configurables
